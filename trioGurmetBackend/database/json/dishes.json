@@ -1,0 +1,322 @@
+[
+    {
+        "id": 1,
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce, parmesan, and croutons with Caesar dressing.",
+        "price": 7.5,
+        "category": "Appetizers",
+        "imgurl": "https://www.gourmet.cl/wp-content/uploads/2016/09/Ensalada_C%C3%A9sar-web-553x458.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Bruschetta",
+        "description": "Toasted bread with fresh tomato, garlic, and basil.",
+        "price": 5,
+        "category": "Appetizers",
+        "imgurl": "https://www.sanpellegrino.com/es/sites/g/files/xknfdk2326/files/styles/recipe_desktop/public/bruschetta_0.jpg.webp?itok=Rtihht0P"
+    },
+    {
+        "id": 3,
+        "name": "Gazpacho",
+        "description": "Cold soup made of tomato, cucumber, and peppers.",
+        "price": 6,
+        "category": "Appetizers",
+        "imgurl": "https://img2.rtve.es/i/?w=1600&i=1622113766371.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Ham Croquettes",
+        "description": "Delicious croquettes filled with Iberian ham.",
+        "price": 4.5,
+        "category": "Appetizers",
+        "imgurl": "https://www.cocinatis.com/archivos/202207/CTIS0549-receta-croquetas-jamon.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Patatas Bravas",
+        "description": "Fried potatoes with spicy brava sauce.",
+        "price": 4,
+        "category": "Appetizers",
+        "imgurl": "https://www.goya.com/media/7699/spicy-potatoes.jpg?quality=80"
+    },
+    {
+        "id": 6,
+        "name": "Fried Squid",
+        "description": "Breaded and fried squid rings with aioli sauce.",
+        "price": 8.5,
+        "category": "Appetizers",
+        "imgurl": "https://www.sherry.wine/media/images/vinos_de_jerez_chocos_fritos.width-876.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Garlic Soup",
+        "description": "Traditional garlic soup with poached egg.",
+        "price": 5.5,
+        "category": "Appetizers",
+        "imgurl": "https://i.blogs.es/fd8d04/sopa_de_ajo_castellana/1366_2000.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Hummus",
+        "description": "Chickpea cream with pita bread.",
+        "price": 4.5,
+        "category": "Appetizers",
+        "imgurl": "https://www.inspiredtaste.net/wp-content/uploads/2019/07/The-Best-Homemade-Hummus-Recipe-1200.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Tuna Tartare",
+        "description": "Fresh tuna marinated with avocado and soy sauce.",
+        "price": 12,
+        "category": "Appetizers",
+        "imgurl": "https://www.paulinacocina.net/wp-content/uploads/2022/03/tartar-de-atun-receta.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Pulpo a la Gallega",
+        "description": "Boiled octopus served with potatoes and paprika.",
+        "price": 9,
+        "category": "Appetizers",
+        "imgurl": "https://cdn.elcocinerocasero.com/imagen/receta/1000/2022-07-06-12-02-26/pulpo-a-la-gallega.jpeg"
+    },
+    {
+        "id": 11,
+        "name": "Seafood Paella",
+        "description": "Rice with fresh seafood and spices.",
+        "price": 15,
+        "category": "Main Dishes",
+        "imgurl": "https://mojo.generalmills.com/api/public/content/_RBO1nvTxUe9m4o5nfEjag_gmi_hi_res_jpeg.jpeg?v=5e3706d8&t=16e3ce250f244648bef28c5949fb99ff"
+    },
+    {
+        "id": 12,
+        "name": "Beef Steak",
+        "description": "Grilled beef steak with sautéed vegetables.",
+        "price": 18.5,
+        "category": "Main Dishes",
+        "imgurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIBZdCuLwgydYsQh2WLXLsyAmPWRKfXZJHWtGIKyjvAFkcA8q-EPmxrZnkwDasKDdxTY0&usqp=CAU"
+    },
+    {
+        "id": 13,
+        "name": "Carbonara Pasta",
+        "description": "Pasta with egg, cheese, and pancetta sauce.",
+        "price": 13,
+        "category": "Main Dishes",
+        "imgurl": "https://i.blogs.es/8819e1/carbonara-rec/650_1200.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Roast Lamb",
+        "description": "Roast lamb leg with herbs and potatoes.",
+        "price": 22,
+        "category": "Main Dishes",
+        "imgurl": "https://okdiario.com/img/recetas/2017/02/22/cordero-asado.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Margherita Pizza",
+        "description": "Pizza with tomato, mozzarella, and fresh basil.",
+        "price": 10,
+        "category": "Main Dishes",
+        "imgurl": "https://imag.bonviveur.com/pizza-margarita.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Grilled Salmon",
+        "description": "Grilled salmon fillet with salad.",
+        "price": 17,
+        "category": "Main Dishes",
+        "imgurl": "https://imag.bonviveur.com/salmon-a-la-plancha-facil-foto-cerca.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Chicken Curry",
+        "description": "Chicken in curry sauce with basmati rice.",
+        "price": 12.5,
+        "category": "Main Dishes",
+        "imgurl": "https://i.blogs.es/8c3360/pollo_curry/1366_2000.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Spinach Ravioli",
+        "description": "Pasta stuffed with spinach and ricotta in tomato sauce.",
+        "price": 11.5,
+        "category": "Main Dishes",
+        "imgurl": "https://www.comedera.com/wp-content/uploads/sites/9/2022/08/raviolis-de-queso-y-espinacas.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Chicken Fajitas",
+        "description": "Chicken fajitas with peppers and onions.",
+        "price": 14,
+        "category": "Main Dishes",
+        "imgurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzRPUj4wnpIeK9iHfuIU7zlMsc480zqS0wmquY7O_d1TbFuUqctGAWZg5t6_a1CrX-GaA&usqp=CAU"
+    },
+    {
+        "id": 20,
+        "name": "Gourmet Burger",
+        "description": "Premium beef burger with cheddar cheese and bacon.",
+        "price": 13.5,
+        "category": "Main Dishes",
+        "imgurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa5LTEYZNe_O4kO4OXPrbc7QpIJiyUzZBGm33Az0u_ovUovlhpsjIwm8FX2jDdkDDv46E&usqp=CAU"
+    },
+    {
+        "id": 21,
+        "name": "Coca-Cola",
+        "description": "Cola soft drink.",
+        "price": 2.5,
+        "category": "Drinks",
+        "imgurl": "https://olimpica.vtexassets.com/arquivos/ids/1286937/7702535001752_2.jpg?v=638411890335400000"
+    },
+    {
+        "id": 22,
+        "name": "Espresso Coffee",
+        "description": "Classic espresso coffee.",
+        "price": 2,
+        "category": "Drinks",
+        "imgurl": "https://media.scoolinary.app/blog/images/2022/10/Cafe%CC%81-y-cocktails_IVIJEh8.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Orange Juice",
+        "description": "Freshly squeezed orange juice.",
+        "price": 3,
+        "category": "Drinks",
+        "imgurl": "https://thepleasureofcooking.com/wp-content/uploads/2020/05/Jugo-de-naranja-1.jpg"
+    },
+    {
+        "id": 24,
+        "name": "Sangria",
+        "description": "Red wine with fruit and brandy.",
+        "price": 6,
+        "category": "Drinks",
+        "imgurl": "https://cdn.colourbox.com/stock-photo/sangria-wine-with-fruits-on-wooden-table-image-81925747.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Mineral Water",
+        "description": "Bottled mineral water.",
+        "price": 1.5,
+        "category": "Drinks",
+        "imgurl": "https://store.sanpellegrino.com/sites/default/files/2022-06/S_Pellegrino_Still_Bottle_1L_2%20(1).jpg"
+    },
+    {
+        "id": 26,
+        "name": "Chocolate Cake",
+        "description": "Rich chocolate cake with cream and nuts.",
+        "price": 6.5,
+        "category": "Desserts",
+        "imgurl": "https://img.freepik.com/foto-gratis/tarta-chocolate-deliciosa-cerca_1150-8231.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Cheesecake",
+        "description": "Classic cheesecake with a strawberry topping.",
+        "price": 7,
+        "category": "Desserts",
+        "imgurl": "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2022/02/receta-de-cheesecake.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Fruit Salad",
+        "description": "Fresh seasonal fruits in a light syrup.",
+        "price": 5,
+        "category": "Desserts",
+        "imgurl": "https://www.dicelacalle.com/wp-content/uploads/2020/05/ensalada-de-frutas-3.jpg"
+    },
+    {
+        "id": 29,
+        "name": "Ice Cream",
+        "description": "Vanilla ice cream with chocolate chips.",
+        "price": 4,
+        "category": "Desserts",
+        "imgurl": "https://www.cocinavital.mx/wp-content/uploads/2023/03/helado-de-vainilla.jpg"
+    },
+    {
+        "id": 30,
+        "name": "Tiramisu",
+        "description": "Layered dessert with coffee and mascarpone cream.",
+        "price": 7.5,
+        "category": "Desserts",
+        "imgurl": "https://cocinandoideas.com/wp-content/uploads/2022/10/tiramisu-casero.jpg"
+    },
+    {
+        "id": 31,
+        "name": "Creme Brulee",
+        "description": "Custard dessert with a crispy caramelized sugar topping.",
+        "price": 6,
+        "category": "Desserts",
+        "imgurl": "https://molinovainilla.com/wp-content/uploads/2021/03/creme-brulee.jpg"
+    },
+    {
+        "id": 32,
+        "name": "Churros",
+        "description": "Deep-fried dough pastry served with chocolate sauce.",
+        "price": 4.5,
+        "category": "Desserts",
+        "imgurl": "https://www.mundorecetas.com/wp-content/uploads/2023/02/churros-con-chocolate.jpg"
+    },
+    {
+        "id": 33,
+        "name": "Apple Pie",
+        "description": "Warm pie with apple filling and cinnamon.",
+        "price": 5.5,
+        "category": "Desserts",
+        "imgurl": "https://static.laflecha.net/wp-content/uploads/2022/06/apple-pie.jpg"
+    },
+    {
+        "id": 34,
+        "name": "Lemon Sorbet",
+        "description": "Refreshing lemon sorbet with a tangy taste.",
+        "price": 4,
+        "category": "Desserts",
+        "imgurl": "https://www.mochilerosentimental.com/wp-content/uploads/2023/06/sorbete-de-limon.jpg"
+    },
+    {
+        "id": 35,
+        "name": "Panna Cotta",
+        "description": "Italian dessert made of sweetened cream and vanilla.",
+        "price": 6,
+        "category": "Desserts",
+        "imgurl": "https://www.lauraacook.com/wp-content/uploads/2022/11/panna-cotta.jpg"
+    },
+    {
+        "id": 36,
+        "name": "Brownie",
+        "description": "Chocolate brownie with walnuts.",
+        "price": 4.5,
+        "category": "Desserts",
+        "imgurl": "https://images.cookforyourlife.org/wp-content/uploads/2020/06/Dark-Chocolate-Brownies-shutterstock_112430981.jpg"
+    },
+    {
+        "id": 37,
+        "name": "Chocolate Mousse",
+        "description": "Smooth chocolate mousse.",
+        "price": 4.5,
+        "category": "Desserts",
+        "imgurl": "https://d1uz88p17r663j.cloudfront.net/original/405e0bb344ede9f3e2384ac9cf8e41ee_mousse-classica-chocolate-receitas-nestle.jpg"
+    },
+    {
+        "id": 38,
+        "name": "Tiramisu",
+        "description": "Classic tiramisu with coffee and cocoa.",
+        "price": 6,
+        "category": "Desserts",
+        "imgurl": "https://recetasdecocina.elmundo.es/wp-content/uploads/2022/08/tiramisu-postre-italiano.jpg"
+    },
+    {
+        "id": 39,
+        "name": "Strawberry Jelly",
+        "description": "Strawberry jelly served with cream.",
+        "price": 3,
+        "category": "Desserts",
+        "imgurl": "https://es.californiastrawberries.com/wp-content/uploads/2021/08/Strawberry-Jello-Cake-500x500.jpg"
+    },
+    {
+        "id": 40,
+        "name": "Profiteroles",
+        "description": "Profiteroles filled with cream and covered in chocolate.",
+        "price": 5,
+        "category": "Desserts",
+        "imgurl": "https://i.blogs.es/de2f7d/profiteroles/840_560.jpg"
+    }
+]
