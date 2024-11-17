@@ -22,4 +22,8 @@ class Employee extends Model
         'created_at' => 'datetime',
         'updated_at' => 'datetime'
     ];
+
+    protected $hidden = [
+        'password'
+    ];
 }

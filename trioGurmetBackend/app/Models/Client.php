@@ -25,8 +25,12 @@ class Client extends Model
         'updated_at' => 'datetime'
     ];
 
+    protected $hidden = [
+        'password'
+    ];
+
     public function orders()
     {
-        return $this->belongsToMany(Order::class);
+        return $this->hasMany(Order::class);
     }
 }

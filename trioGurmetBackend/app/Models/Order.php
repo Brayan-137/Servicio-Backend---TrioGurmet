@@ -25,4 +25,9 @@ class Order extends Model
     {
         return $this->belongsToMany(Dish::class);
     }
+
+    public function client()
+    {
+        return $this->belongsTo(Client::class);
+    }
 }
