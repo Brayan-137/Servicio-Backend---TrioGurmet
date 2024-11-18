@@ -31,4 +31,10 @@ class OrderController extends Controller
     {
         return $order->load(['client', 'dishes']);
     }
+
+    public function update(Request $request, Order $order)
+    {
+        $order->update($request->all());
+        return $order->load(['client', 'dishes']);
+    }
 }
