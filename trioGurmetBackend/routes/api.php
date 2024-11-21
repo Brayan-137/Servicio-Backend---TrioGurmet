@@ -22,6 +22,7 @@ Route::post('login', [AuthController::class, 'login']);
 Route::middleware('auth:sanctum')->group(function () {
     Route::get('clients/id', [ClientController::class, 'show']);
     Route::get('logout', [AuthController::class, 'logout']);
+    Route::get('orders', [OrderController::class, 'show']);
 
     Route::middleware('scope:employee')->group(function () {
         Route::apiResource('clients', ClientController::class);
