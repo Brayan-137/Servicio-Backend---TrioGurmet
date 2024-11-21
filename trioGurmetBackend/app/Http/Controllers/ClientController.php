@@ -27,8 +27,9 @@ class ClientController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Request $request, Client $client)
+    public function show(Request $request)
     {
+        $client = Client::where('id', $request->id)->first();
         return $client->load([
             'orders' => function ($query) {
                 $query->with('dishes');
