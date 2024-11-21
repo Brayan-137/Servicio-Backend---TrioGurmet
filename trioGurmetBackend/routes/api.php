@@ -4,8 +4,11 @@ use App\Http\Controllers\ClientController;
 use App\Http\Controllers\DishController;
 use App\Http\Controllers\EmployeeController;
 use App\Http\Controllers\OrderController;
+use App\Http\Controllers\AuthController;
 use App\Http\Middleware\RemoveIdAttributes;
 use App\Http\Middleware\RemovePasswordAttributes;
+// use \App\Http\Middleware\CheckUserType;
+
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -13,14 +16,17 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // })->middleware('auth:sanctum');
 
-Route::middleware(RemovePasswordAttributes::class)->group(function () {
-    
-});
-Route::apiResource('clients', ClientController::class);
-Route::apiResource('employees', EmployeeController::class);
-Route::apiResource('orders', OrderController::class)->middleware(RemoveIdAttributes::class);
 Route::apiResource('dishes', DishController::class);
+Route::post('login', [AuthController::class, 'login']);
 
+Route::middleware('auth:sanctum')->group(function () {
+    Route::get('clients/id', [ClientController::class, 'show']);
+    Route::get('logout', [AuthController::class, 'logout']);
 
+    Route::middleware('scope:employee')->group(function () {
+        Route::apiResource('clients', ClientController::class);
+        Route::apiResource('orders', OrderController::class)->middleware(RemoveIdAttributes::class);
+    });
+});
 
 
