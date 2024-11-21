@@ -29,7 +29,7 @@ class ClientController extends Controller
      */
     public function show(Request $request, Client $client)
     {
-        return $client;
+        return $client->load(['orders']);
     }
 
     /**
