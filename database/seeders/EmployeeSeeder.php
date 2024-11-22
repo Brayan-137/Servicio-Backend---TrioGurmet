@@ -19,7 +19,7 @@ class EmployeeSeeder extends Seeder
         Employee::create([
             'name' => 'Employee User',        // Nombre del usuario
             'email' => 'employee@example.com', // Correo electrónico
-            'password' => bcrypt('password'), // Contraseña encriptada
+            'password' => '12345678', // Contraseña encriptada
         ]);
     }
 }
