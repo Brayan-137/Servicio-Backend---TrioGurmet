@@ -12,11 +12,13 @@ class Order extends Model
     protected $fillable = [
         'id',
         'status',
+        'client_id',
         'created_at',
         'updated_at'
     ];
 
     protected $cast = [
+        'client_id' => 'integer',
         'created_at' => 'datetime',
         'updated_at' => 'datetime'
     ];
