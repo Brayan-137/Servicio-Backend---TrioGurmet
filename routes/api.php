@@ -18,16 +18,17 @@ use Illuminate\Support\Facades\Route;
 
 Route::apiResource('dishes', DishController::class);
 Route::post('login', [AuthController::class, 'login']);
-Route::get('/clients' [ClientController::class], 'index');
+Route::apiResource('clients', ClientController::class);
+
 
 Route::middleware('auth:sanctum')->group(function () {
-    Route::get('/clients/{id}', [ClientController::class, 'show']);        
+    // Route::get('/clients/{id}', [ClientController::class, 'show']);        
     Route::get('/logout', [AuthController::class, 'logout']);
     Route::get('/orders', [OrderController::class, 'show']);
     Route::post('/orders', [OrderController::class, 'store']);
 
     Route::middleware('scope:employee')->group(function () {
-        Route::apiResource('clients', ClientController::class);
+        // Route::apiResource('clients', ClientController::class);
         Route::apiResource('orders', OrderController::class)->middleware(RemoveIdAttributes::class);
     });
 });
