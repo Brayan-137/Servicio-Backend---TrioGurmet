@@ -38,8 +38,9 @@ class OrderController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Order $order)
+    public function show(Request $request)
     {
+        $order = Order::where('id', $request->id)->first();
         return $order->load(['client', 'dishes']);
     }
 

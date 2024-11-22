@@ -24,7 +24,7 @@ Route::middleware('auth:sanctum')->group(function () {
 
     Route::get('/clients/{id}', [ClientController::class, 'show']);        
 
-    Route::get('/orders', [OrderController::class, 'show']);
+    Route::get('/orders/{id}', [OrderController::class, 'show']);
     Route::post('/orders', [OrderController::class, 'store']);
 
     Route::middleware('scope:employee')->group(function () {
