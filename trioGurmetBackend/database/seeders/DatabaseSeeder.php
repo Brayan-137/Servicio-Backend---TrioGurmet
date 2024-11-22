@@ -18,5 +18,11 @@ class DatabaseSeeder extends Seeder
         $this->call(DishSeeder::class);
         $this->call(OrderSeeder::class);
         $this->call(DishOrderSeeder::class);
+
+        User::create([
+            'name' => 'Admin User',        // Nombre del usuario
+            'email' => 'admin@example.com', // Correo electrónico
+            'password' => bcrypt('password'), // Contraseña encriptada
+        ]);
     }
 }
