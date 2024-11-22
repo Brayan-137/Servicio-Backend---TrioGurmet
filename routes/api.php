@@ -27,7 +27,7 @@ Route::middleware('auth:sanctum')->group(function () {
 
     Route::middleware('scope:employee')->group(function () {
         Route::apiResource('clients', ClientController::class);
-        // Route::apiResource('orders', OrderController::class)->middleware(RemoveIdAttributes::class);
+        Route::apiResource('orders', OrderController::class)->middleware(RemoveIdAttributes::class);
     });
 });
 
