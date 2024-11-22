@@ -8,6 +8,8 @@ php artisan config:cache
 echo "Caching routes..."
 php artisan route:cache
 
+composer require fakerphp/faker
+
 echo "Running migrations..."
 php artisan migrate:fresh --force --seed
 
