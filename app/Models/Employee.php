@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Laravel\Sanctum\HasApiTokens;
 
-class Employee extends Authenticatable
+class Employee extends Model
 {
     use HasFactory, HasApiTokens;
     

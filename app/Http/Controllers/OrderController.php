@@ -21,6 +21,17 @@ class OrderController extends Controller
     public function store(Request $request)
     {
         $order = Order::create($request->all());
+
+        $dishes_input = $request->input('dishes');
+        $temp_dishes = [];
+        foreach($dishes_input as $dish) {
+            $temp_dishes[$dish["id"]] = [
+                'quantity' => $dish["quantity"],
+                'created_at' => now()
+            ];
+        }
+        $order->dishes()->sync($temp_dishes);
+
         return $order->load(['client', 'dishes']);
     }
 

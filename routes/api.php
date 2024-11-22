@@ -17,19 +17,19 @@ use Illuminate\Support\Facades\Route;
 // })->middleware('auth:sanctum');
 
 Route::apiResource('dishes', DishController::class);
-Route::post('login', [AuthController::class, 'login']);
-Route::apiResource('clients', ClientController::class);
-
+Route::post('/login', [AuthController::class, 'login']);
 
 Route::middleware('auth:sanctum')->group(function () {
-    // Route::get('/clients/{id}', [ClientController::class, 'show']);        
     Route::get('/logout', [AuthController::class, 'logout']);
+
+    Route::get('/clients/{id}', [ClientController::class, 'show']);        
+
     Route::get('/orders', [OrderController::class, 'show']);
     Route::post('/orders', [OrderController::class, 'store']);
 
     Route::middleware('scope:employee')->group(function () {
-        // Route::apiResource('clients', ClientController::class);
-        Route::apiResource('orders', OrderController::class)->middleware(RemoveIdAttributes::class);
+        Route::apiResource('clients', ClientController::class)->except(['show']);
+        Route::apiResource('orders', OrderController::class)->except(['show', 'store'])->middleware(RemoveIdAttributes::class);
     });
 });
 
